@@ -17,10 +17,6 @@ body {
     opacity: 0;
 }
 
-.textAnime {
-    opacity: 0;
-}
-
 .textAnime.appeartext span {
     animation: text_anime_on 1s ease-out forwards;
 }
