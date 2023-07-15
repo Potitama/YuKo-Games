@@ -1,0 +1,63 @@
+@media (max-width: 767px) {
+
+    .yu-img {
+        height: 300px;
+        width: 300px;
+    }
+    
+    .ko-img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .top-img {
+        height: 475px;
+        width: 336px;
+    }
+
+    a {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .human-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 64px;
+    }
+
+    .sub-title {
+        font-size: 60px;
+    }
+
+    .yu-sentens-area,
+    .ko-sentens-area {
+        margin-top: 50px;
+    }
+
+    .ko {
+        flex-direction: column-reverse;
+    }
+
+    .main-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        margin: 0 auto;
+    }
+
+    .human-name {
+        font-size: 60px;
+    }
+}

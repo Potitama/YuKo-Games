@@ -1,0 +1,269 @@
+body {
+    font-family: "M PLUS Rounded 1c";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#particles-js{ 
+	position:fixed;
+	z-index:-1;
+	width: 100%;
+	height: 100%;
+    pointer-events: none;
+}
+
+.fadein-1 {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+}
+
+.fadein-4 {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 2.5s;
+}
+
+.main {
+    margin-top: 230px;
+} 
+
+.yu-img {
+    height: 400px;
+    width: 400px;
+}
+
+.ko-img {
+    height: 400px;
+    width: 400px;
+}
+
+.ko {
+    margin-top: 200px;
+}
+
+#wrapper{
+	position: relative;
+	z-index: 1;
+	width:100%;
+	height: 100%;
+}
+
+.yu-sentens-area {
+    height: 100%;
+    background-color: rgb(38, 0, 255);
+    opacity: 0.4;
+    font-size: 21px;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    position: relative;
+}
+
+.yu-sentens-area:before,
+.yu-sentens-area:after{
+    width: calc(100% - 160px);
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    content: "";
+}
+
+.yu-sentens-area:before{
+    border-bottom: solid 30px rgb(38, 0, 255);
+    border-right: solid 80px transparent;
+    border-left: solid 80px transparent;
+    bottom: 100%;
+}
+.yu-sentens-area:after{
+    border-top: solid 30px rgb(38, 0, 255);
+    border-right: solid 80px transparent;
+    border-left: solid 80px transparent;
+    top: 100%;
+}
+
+.ko-sentens-area {
+    height: 100%;
+    background-color: rgb(0, 132, 255);
+    opacity: 0.4;
+    font-size: 21px;
+    padding: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    position: relative;
+}
+
+.ko-sentens-area:before,
+.ko-sentens-area:after{
+    width: calc(100% - 160px);
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    content: "";
+}
+
+.ko-sentens-area:before{
+    border-bottom: solid 30px rgb(0, 132, 255);
+    border-right: solid 80px transparent;
+    border-left: solid 80px transparent;
+    bottom: 100%;
+}
+.ko-sentens-area:after{
+    border-top: solid 30px rgb(0, 132, 255);
+    border-right: solid 80px transparent;
+    border-left: solid 80px transparent;
+    top: 100%;
+}
+
+.sub-title {
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.human-name {
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.human {
+    text-align: center;
+}
+
+.kou {
+    color: rgb(0, 132, 255);
+}
+
+.yu {
+    color: rgb(127, 49, 253);
+}
+
+.contents {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-title {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bonheur Royale', cursive;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+    .shape-4586{
+        height: 240px;
+        overflow:hidden;
+        position:relative;
+        }
+        .shape-4586::before{ 
+        content:'';
+        font-family:'shape divider from ShapeDividers.com';
+        position: absolute;
+        z-index: 3;
+        pointer-events: none;
+        background-repeat: no-repeat;
+        bottom: -0.1vw;
+        left: -0.1vw;
+        right: -0.1vw;
+        top: -0.1vw; 
+        background-size: 100% 220px;
+        background-position: 50% 0%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381 77.25" preserveAspectRatio="none"><g fill="%23000000"><path d="M381 8.47L0 42.33V0h381z"/><path d="M381 33.87L0 59.27V0h381z" opacity=".33"/><path d="M381 59.27L0 77.25V0h381z" opacity=".33"/></g></svg>'); 
+        }
+        
+        @media (min-width:2100px){
+        .shape-4586::before{
+        background-size: 100% calc(2vw + 220px);
+        }
+        }
+
+.human-section {
+    display: flex;
+    align-items: flex-end;
+}
+
+footer {
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+
+.shape-5324{
+    margin-top: 400px;
+    height: 240px;
+    overflow:hidden;
+    position:relative;
+    }
+    .shape-5324::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 220px;
+    background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 381 77.25" preserveAspectRatio="none"><g fill="%23000000"><path d="M0 68.78l381-33.86v42.33H0z"/><path d="M0 43.38l381-25.4v59.27H0z" opacity=".33"/><path d="M0 17.98L381 0v77.25H0z" opacity=".33"/></g></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shape-5324::before{
+    background-size: 100% calc(2vw + 220px);
+    }
+    }
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.fa-youtube {
+    margin-right: 15px;
+}
+
+.fa-twitter,
+.fa-twitch {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.textAnime span {
+    opacity: 0;
+}
+
+.textAnime.appeartext span {
+    animation: text_anime_on 1s ease-out forwards;
+}
+
+@keyframes text_anime_on {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+
+     
+         
+         
+         
+         
+     
+     
+
+
+     
