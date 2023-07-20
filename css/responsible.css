@@ -21,7 +21,24 @@
 
     .main {
         margin-top: 180px;
-    } 
+    }
+    
+    .custom-img {
+        width: 300px;
+        height: 180px;
+    }
+
+    .ApexCustom {
+        font-size: 18px;
+    }
+
+    .movie-comment {
+        font-size: 18px;
+    }
+
+    iframe {
+        height: 400px;
+    }
 
 }
 
